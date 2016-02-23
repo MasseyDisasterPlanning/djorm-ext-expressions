@@ -2,7 +2,7 @@
 
 from __future__ import unicode_literals
 
-from django.utils.datastructures import SortedDict
+from collections import SortedDict
 from django.db.models.sql.where import ExtraWhere
 from django.db.models.query import QuerySet
 from django.db import models
